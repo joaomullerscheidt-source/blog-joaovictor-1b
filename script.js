@@ -1,7 +1,11 @@
 const botao = document.querySelector("button");
-botao.addEventListener("click",botaoClicado);
+const botoes = document.querySelectorAll("button");
+botoes.forEach(function(botao) {
+botao.addEventListener("click", botaoClicado);
 
-fuction botaoClicado() {
-    let texto = botao.querySelector("span");
-    texto.textContent++;
+function botaoClicado() {
+console.log("fui clicado");
+let texto = botao.querySelector("span");
+texto.textContent++;
 }
+});
