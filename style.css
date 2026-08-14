@@ -1,39 +1,43 @@
-.cabecalho{
-    background-color: rgb(247, 139, 241);
+.cabecalho {
+    background-color: rgb(247, 231, 139);
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
     padding: 16x;
 }
 
-.conteudo-principal{
-    background-color: lightpink;
+.conteudo-principal {
+    background-color: rgb(52, 177, 49);
+    
     max-width: 800px;
+    
     margin: 0 auto;
     padding: 16x;
     display: flex;
     justify-content: space-between;
 }
 
-.imagem-principal{
-    width: 400px;
-    height: 300px;
+.imagem-principal {
+    width: 200px;
+    height: 200px;
 }
 
-.cabecalho-paragrafo{
-    font-weight: bold;
-    text-decoration: italic;
-}
-.conteudo-principal-texto{
+.cabecalho-paragrafo {
     font-weight: bold;
 }
+
+.conteudo-principal-texto {
+    font-weight: bold;
+}
+
 article {
-    
+
     border: 1px solid #183C63;
     margin: 16px;
     gap: 16px;
     padding: 16px;
 }
+
 article {
     display: flex;
     flex-direction: column;
